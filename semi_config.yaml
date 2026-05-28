@@ -1,0 +1,16 @@
+seed: 42
+source_dataset: "../project3.yolov8"
+base_model: "yolov8n.pt"
+fallback_model: "yolov8n.pt"
+labeled_count: 60
+unlabeled_count: 30
+validation_count: 15
+confidence_threshold: 0.3
+prediction_confidence_threshold: 0.25
+epochs: 100
+imgsz: 640
+device: 0
+reuse_existing_models: false
+project_name: "semi_yolov8n_pseudo_labeling"
+names:
+  - eraser
