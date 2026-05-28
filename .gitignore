@@ -1,0 +1,23 @@
+.venv/
+.tmp_venv/
+__pycache__/
+*.py[cod]
+
+# Generated training and prediction outputs
+final_results/
+runs/
+
+# Local Ultralytics settings/cache
+Ultralytics/
+
+# Downloaded base model weights
+*.pt
+
+# Local datasets can be added manually if sharing data is allowed
+# dataset/images/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
