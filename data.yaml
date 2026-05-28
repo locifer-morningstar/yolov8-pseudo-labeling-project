@@ -1,0 +1,8 @@
+path: .
+train: dataset/images
+val: dataset/images
+test: dataset/images
+
+nc: 1
+names:
+  - eraser
